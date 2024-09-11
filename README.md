@@ -22,5 +22,6 @@ $ import base64
 
 # Screenshots
 
-![App Screenshot](https://via.placeholder.com/468x300?text=App+Screenshot+Here)
+![Screenshot 2024-09-11 225642](https://github.com/user-attachments/assets/48bb9752-c0cd-4419-93e3-8d108db035c0)
+
 
