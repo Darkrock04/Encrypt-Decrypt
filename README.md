@@ -1,4 +1,4 @@
-# Encrypt-Decrypt
+# ENCRYPT-DECRYPT
 
 # INTRODUCTION
 This project is a simple yet effective implementation of message encryption and decryption using Python. It leverages the Tkinter library for the graphical user interface (GUI) and the base64 module for encoding and decoding messages.
