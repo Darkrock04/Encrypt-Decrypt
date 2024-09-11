@@ -10,7 +10,7 @@ $ pip install tkinter
 $ import tkinter
 
 $ import base64
-## Color Reference
+# Color Reference
 
 | Color             | Hex                                                                |
 | ----------------- | ------------------------------------------------------------------ |
