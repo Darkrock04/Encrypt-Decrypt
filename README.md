@@ -5,6 +5,7 @@ This project is a simple yet effective implementation of message encryption and 
 
 # REQUERED MODULES FOR THE PROJECT
 $ pip install tkinter
+$ pip install base64
 
 # IMPORT MODULES
 $ import tkinter
