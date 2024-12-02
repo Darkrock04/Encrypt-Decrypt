@@ -1,5 +1,3 @@
-# This workflow will install Python dependencies and run the Encrypt-Decrypt application
-
 name: Encrypt-Decrypt Application
 
 on:
@@ -30,4 +28,4 @@ jobs:
     - name: Run Encrypt-Decrypt Application
       run: |
         # Use xvfb-run to run the Tkinter application in a virtual framebuffer
-        xvfb-run --auto-servernum --server-args='-screen 0 1024x768x24' python Encrypt-Decrypt/Code.py
+        xvfb-run --auto-servernum --server-args='-screen 0 1024x768x24' python Code.py
