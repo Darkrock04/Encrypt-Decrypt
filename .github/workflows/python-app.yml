@@ -25,8 +25,9 @@ jobs:
     - name: Install dependencies
       run: |
         python -m pip install --upgrade pip
-        pip install base64 tkinter
+        # tkinter is part of the standard library and does not need to be installed via pip
         if [ -f requirements.txt ]; then pip install -r requirements.txt; fi
     - name: Run Encrypt-Decrypt Application
       run: |
-        python Encrypt-Decrypt/Code.py
+        # Use xvfb-run to run the Tkinter application in a virtual framebuffer
+        xvfb-run --auto-servernum --server-args='-screen 0 1024x768x24' python Encrypt-Decrypt/Code.py
